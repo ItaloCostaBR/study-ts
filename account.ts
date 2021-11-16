@@ -1,5 +1,3 @@
-// RUN: tsc -t es5 -w tscode.ts
-
 abstract class Account {
 	private readonly _accountNumber: number;
 	holder: string;
@@ -102,6 +100,6 @@ class AccountPF extends Account {
 const accountPJ = new AccountPJ(46173051000116, "Titular PJ", 1000);
 accountPJ.depositBalance(100);
 accountPJ.getBalancePJ();
-const accountPF = new AccountPF(12345678909, "Titular PF", 200);
+const accountPF = new AccountPF(11111111111, "Titular PF", 200);
 accountPF.depositBalance(10);
 accountPF.getBalancePF();
