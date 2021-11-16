@@ -35,7 +35,7 @@ tsc -w nameFile.ts
 > Attention: `-t es5 -w` just add this parameter.
 
 ```sh
-tsc `-t es5 -w nameFile.ts
+tsc -t es5 -w nameFile.ts
 ```
 
 ## _Watch file Javascript_
